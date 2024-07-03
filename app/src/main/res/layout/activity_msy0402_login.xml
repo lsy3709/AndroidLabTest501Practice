@@ -5,27 +5,25 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0703.lcs0806_mini.Lcs0806JoinActivity">
+    tools:context=".Msy0402LoginActivity">
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:padding="16dp">
 
         <EditText
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:hint="이메일"
+            android:hint="이메일 입력"
             android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/editTextEmail"
-            android:layout_margin="16dp"
             android:hint="패스워드"
             android:inputType="textPassword" />
 
@@ -33,19 +31,15 @@
             android:id="@+id/buttonLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/editTextPassword"
-            android:layout_margin="16dp"
             android:text="로그인" />
 
         <Button
-            android:id="@+id/buttonRegister"
-            android:layout_width="match_parent"
+            android:id="@+id/buttonSignUp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/buttonLogin"
-            android:layout_margin="16dp"
             android:text="회원가입" />
 
-
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

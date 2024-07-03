@@ -13,66 +13,18 @@
         android:theme="@style/Theme.AndroidLabTest501"
         tools:targetApi="31">
         <activity
-            android:name=".miniProject.test0703.kdk1115_mini.Kdk1115JoinActivity"
+            android:name=".miniProject.test0703.msy0402_mini.Msy0402LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kdk1115_mini.Kdk1115SplashActivity"
+            android:name=".miniProject.test0703.msy0402_mini.Msy0402SplashActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kdk1115_mini.Kdk1115LoginActivity"
+            android:name=".miniProject.test0703.msy0402_mini.Msy0402JoinActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kdk1115_mini.Kdk1115MainActivity"
+            android:name=".miniProject.test0703.msy0402_mini.Msy0402MainActivity"
             android:exported="true" />
 
-        <activity
-            android:name=".miniProject.test0703.mjs1003_mini.Mjs1003LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.mjs1003_mini.Mjs1003SplashActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.mjs1003_mini.Mjs1003JoinActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.mjs1003_mini.Mjs1003MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.kms0828_mini.Kms0828SplashActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.kms0828_mini.Kms0828MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.kms0828_mini.Kms0828LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.kms0828_mini.Kms0828JoinActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.test0101_mini.Test0101JoinActivity"
-            android:exported="false" />
-        <activity
-            android:name=".miniProject.test0703.lsy1205_mini.Lsy1205SplashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".miniProject.test0703.lsy1205_mini.Lsy1205MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".miniProject.test0703.lsy1205_mini.Lsy1205LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".miniProject.test0703.lsy1205_mini.Lsy1205JoinActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ch06.Ch06Test2Activity"
-            android:exported="true" />
-        <activity
-            android:name=".ch06.Ch06TestActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ch06.Ch6MainActivity"
-            android:exported="true" /> <!-- 다른 화면을 따로 실행하고 싶으면, -->
         <!-- TestActivity 우클릭 하고 따로 실행. 주의사항, -->
         <!-- exported="true" 변경, 각각 실행됨. -->
         <activity
@@ -90,3 +42,4 @@
     </application>
 
 </manifest>
+

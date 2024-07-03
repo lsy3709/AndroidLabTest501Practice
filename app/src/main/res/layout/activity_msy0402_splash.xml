@@ -5,31 +5,32 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0703.kdk1115_mini.Kdk1115SplashActivity">
+    tools:context=".Msy0402SplashActivity">
 
-
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:padding="16dp">
 
         <ImageView
+            android:id="@+id/imageViewSplash"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/combi"
-            android:maxWidth="150dp"
-            android:maxHeight="150dp"
-            android:adjustViewBounds="true"
-            android:layout_gravity="center"
-            android:background="#FBFBFB"/>
+            android:src="@drawable/food1"
+            android:contentDescription="인트로 이미지" />
 
         <TextView
+            android:id="@+id/textViewIntro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:maxLines="4"
-            android:text="피자 먹고파요" />
+            android:text="인트로 화면, 문자열"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="16dp" />
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
