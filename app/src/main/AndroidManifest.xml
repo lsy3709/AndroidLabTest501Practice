@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,11 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabTest501"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+      
+        <activity
+            android:name=".miniProject.test0703.lsj0918_mini.Lsj0918SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lsj0918_mini.Lsj0918MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lsj0918_mini.Lsj0918LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lsj0918_mini.Lsj0918JoinActivity"
+            android:exported="true" />
         <activity
             android:name=".miniProject.test0703.test0101_mini.Test0101JoinActivity"
             android:exported="false" />
+        <activity>
+            android:name=".miniProject.test0703.lhs0418_mini.Lhs0418MainActivity"
+            android:exported="true" />
         <activity
+
             android:name=".miniProject.test0703.lhj0728_mini.Lhj0728SplashActivity"
             android:exported="true" >
             <intent-filter>
@@ -37,14 +54,124 @@
             android:name=".miniProject.test0703.lsy1205_mini.Lsy1205SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".miniProject.test0703.lsy1205_mini.Lsy1205MainActivity"
-            android:exported="false" />
+            android:name=".miniProject.test0703.lhs0418_mini.Lhs0418SplashActivity"
+            android:exported="true" />
+
         <activity
-            android:name=".miniProject.test0703.lsy1205_mini.Lsy1205LoginActivity"
-            android:exported="false" />
+            android:name=".miniProject.test0703.lhs0418_mini.Lhs0418LoginActivity"
+            android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.lsy1205_mini.Lsy1205JoinActivity"
-            android:exported="false" />
+            android:name=".miniProject.test0703.lhs0418_mini.Lhs0418JoinActivity"
+            android:exported="true" />
+        <activity
+
+            android:name=".miniProject.test0703.ngy0428_mini.Ngy0428SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ngy0428_mini.Ngy0428JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ngy0428_mini.Ngy0428MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ngy0428_mini.Ngy0428LoginActivity"
+            />
+        <activity
+            android:name=".miniProject.test0703.kdk1115_mini.kdk1115JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kdk1115_mini.kdk1115SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kdk1115_mini.kdk1115LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kdk1115_mini.kdk1115MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".miniProject.test0703.ohj0106_mini.Ohj0106SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ohj0106_mini.Ohj0106MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ohj0106_mini.Ohj0106LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ohj0106_mini.Ohj0106JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.mjs1003_mini.Mjs1003LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.mjs1003_mini.Mjs1003SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.mjs1003_mini.Mjs1003JoinActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".miniProject.test0703.mjs1003_mini.Mjs1003MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kms0828_mini.Kms0828SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kms0828_mini.Kms0828MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kms0828_mini.Kms0828LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kms0828_mini.Kms0828JoinActivity"
+
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lcs0806_mini.Lcs0806LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lcs0806_mini.Lcs0806SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lcs0806_mini.Lcs0806MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lcs0806_mini.Lcs0806JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.nhj0918_mini.Nhj0918JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.nhj0918_mini.Nhj0918SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.nhj0918_mini.Nhj0918MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.nhj0918_mini.Nhj0918LoginActivity"
+            android:exported="true" />
+<!--        <activity-->
+<!--            android:name=".miniProject.test0703.Nhj0918_mini.Nhj0918JoinActivity"-->
+<!--            android:exported="true" />-->
         <activity
             android:name=".ch06.Ch06Test2Activity"
             android:exported="false" />
@@ -59,6 +186,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+
             android:exported="false" />
     </application>
 
