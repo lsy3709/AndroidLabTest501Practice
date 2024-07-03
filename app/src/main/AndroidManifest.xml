@@ -38,16 +38,16 @@
             android:name=".miniProject.test0703.ngy0428_mini.Ngy0428LoginActivity"
             />
         <activity
-            android:name=".miniProject.test0703.kdk1115_mini.Kdk1115JoinActivity"
+            android:name=".miniProject.test0703.kdk1115_mini.kdk1115JoinActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kdk1115_mini.Kdk1115SplashActivity"
+            android:name=".miniProject.test0703.kdk1115_mini.kdk1115SplashActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kdk1115_mini.Kdk1115LoginActivity"
+            android:name=".miniProject.test0703.kdk1115_mini.kdk1115LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kdk1115_mini.Kdk1115MainActivity"
+            android:name=".miniProject.test0703.kdk1115_mini.kdk1115MainActivity"
             android:exported="true" />
 
         <activity
