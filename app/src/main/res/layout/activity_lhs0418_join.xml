@@ -53,6 +53,5 @@
             android:text="로그인"/>
 
 
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
