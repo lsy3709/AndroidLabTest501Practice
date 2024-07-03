@@ -13,7 +13,7 @@
         android:id="@+id/exBtn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="버튼1"/>
+        android:text="버튼"/>
 
     <Button
         android:id="@+id/exBtn2"
