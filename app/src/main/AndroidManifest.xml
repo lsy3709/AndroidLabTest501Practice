@@ -118,16 +118,16 @@
             android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815JoinActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.Nhj0918_mini.Nhj0918JoinActivity"
+            android:name=".miniProject.test0703.nhj0918_mini.Nhj0918JoinActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.Nhj0918_mini.Nhj0918SplashActivity"
+            android:name=".miniProject.test0703.nhj0918_mini.Nhj0918SplashActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.Nhj0918_mini.Nhj0918MainActivity"
+            android:name=".miniProject.test0703.nhj0918_mini.Nhj0918MainActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.Nhj0918_mini.Nhj0918LoginActivity"
+            android:name=".miniProject.test0703.nhj0918_mini.Nhj0918LoginActivity"
             android:exported="true" />
 <!--        <activity-->
 <!--            android:name=".miniProject.test0703.Nhj0918_mini.Nhj0918JoinActivity"-->
