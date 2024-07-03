@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabTest501"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".miniProject.test0703.lhs0418_mini.Lhs0418MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lhs0418_mini.Lhs0418SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lhs0418_mini.Lhs0418LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lhs0418_mini.Lhs0418JoinActivity"
+            android:exported="true" />
         <activity
             android:name=".miniProject.test0703.test0101_mini.Test0101JoinActivity"
             android:exported="false" />
@@ -43,7 +55,7 @@
             android:exported="true" /> <!-- 앱을 만들면, 기본 MainActivity 시작화면으로 지정. -->
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
