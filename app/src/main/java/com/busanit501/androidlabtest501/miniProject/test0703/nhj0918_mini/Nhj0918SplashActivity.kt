@@ -1,4 +1,4 @@
-package com.busanit501.androidlabtest501.miniProject.test0703.Nhj0918_mini
+package com.busanit501.androidlabtest501.miniProject.test0703.nhj0918_mini
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
