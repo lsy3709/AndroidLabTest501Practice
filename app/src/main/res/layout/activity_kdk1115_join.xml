@@ -21,7 +21,7 @@
             android:ellipsize="end"/>
 
     <EditText
-        android:emain="@+id/ch06Memail"
+        android:id="@+id/ch06Memail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
