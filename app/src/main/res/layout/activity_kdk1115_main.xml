@@ -15,7 +15,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/combi"
+        android:src="@drawable/food1"
         android:maxWidth="150dp"
         android:maxHeight="150dp"
         android:adjustViewBounds="true"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="4"
-            android:text="피자 먹고파요" />
+            android:text="피자. 먹고파요" />
 
     </LinearLayout>
 
