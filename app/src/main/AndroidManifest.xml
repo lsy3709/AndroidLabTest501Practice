@@ -32,8 +32,31 @@
             android:name=".miniProject.test0703.lhs0418_mini.Lhs0418MainActivity"
             android:exported="true" />
         <activity
+
+            android:name=".miniProject.test0703.lhj0728_mini.Lhj0728SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".miniProject.test0703.lhj0728_mini.Lhj0728MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lhj0728_mini.Lhj0728LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lhj0728_mini.Lhj0728JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lsy1205_mini.Lsy1205SplashActivity"
+            android:exported="false" />
+        <activity
             android:name=".miniProject.test0703.lhs0418_mini.Lhs0418SplashActivity"
             android:exported="true" />
+
         <activity
             android:name=".miniProject.test0703.lhs0418_mini.Lhs0418LoginActivity"
             android:exported="true" />
@@ -151,27 +174,20 @@
 <!--            android:exported="true" />-->
         <activity
             android:name=".ch06.Ch06Test2Activity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".ch06.Ch06TestActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".ch06.Ch6MainActivity"
-            android:exported="true" /> <!-- 다른 화면을 따로 실행하고 싶으면, -->
-        <!-- TestActivity 우클릭 하고 따로 실행. 주의사항, -->
-        <!-- exported="true" 변경, 각각 실행됨. -->
+            android:exported="false" />
         <activity
             android:name=".TestActivity"
-            android:exported="true" /> <!-- 앱을 만들면, 기본 MainActivity 시작화면으로 지정. -->
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
