@@ -75,6 +75,18 @@
 
             android:exported="true" />
         <activity
+            android:name=".miniProject.test0703.lcs0806_mini.Lcs0806LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lcs0806_mini.Lcs0806SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lcs0806_mini.Lcs0806MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.lcs0806_mini.Lcs0806JoinActivity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0703.test0101_mini.Test0101JoinActivity"
             android:exported="false" />
         <activity
