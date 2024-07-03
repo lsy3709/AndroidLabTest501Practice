@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.databinding.ActivityLhs0418JoinBinding
 import com.busanit501.androidlabtest501.databinding.ActivityLhs0418SplashBinding
 
 class Lhs0418SplashActivity : AppCompatActivity() {

@@ -36,7 +36,8 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.ngy0428_mini.Ngy0428LoginActivity"
-
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0703.kdk1115_mini.Kdk1115JoinActivity"
             android:exported="true" />
         <activity
