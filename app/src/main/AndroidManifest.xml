@@ -51,6 +51,18 @@
             android:exported="true" />
 
         <activity
+            android:name=".miniProject.test0703.ohj0106_mini.Ohj0106SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ohj0106_mini.Ohj0106MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ohj0106_mini.Ohj0106LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ohj0106_mini.Ohj0106JoinActivity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0703.mjs1003_mini.Mjs1003LoginActivity"
             android:exported="true" />
         <activity
