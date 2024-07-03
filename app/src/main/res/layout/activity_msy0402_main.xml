@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Msy0402MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food2"
+            android:contentDescription="메인 이미지" />
+
+        <TextView
+            android:id="@+id/textViewLunchMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="먹고 싶은 점심 메뉴"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/food2"
+            android:contentDescription="메인 이미지" />
+
+        <TextView
+            android:id="@+id/textViewLunchMenu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="먹고 싶은 점심 메뉴"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="16dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
