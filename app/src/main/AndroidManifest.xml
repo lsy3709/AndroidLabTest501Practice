@@ -38,6 +38,20 @@
         <activity
             android:name=".miniProject.test0703.lsj0918_mini.Lsj0918JoinActivity"
             android:exported="true" />
+
+        <activity
+            android:name=".miniProject.test0703.ksb0109_mini.ksb0109JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ksb0109_mini.ksb0109LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ksb0109_mini.ksb0109MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.ksb0109_mini.ksb0109SplashActivity"
+            android:exported="true" />
+
         <activity
             android:name=".miniProject.test0703.test0101_mini.Test0101JoinActivity"
             android:exported="false" />
@@ -78,6 +92,7 @@
             android:name=".miniProject.test0703.lsy1205_mini.Lsy1205LoginActivity"
             android:exported="true" />
 
+
         <activity
 
             android:name=".miniProject.test0703.ngy0428_mini.Ngy0428SplashActivity"
@@ -94,15 +109,7 @@
         <activity
             android:name=".miniProject.test0703.kdk1115_mini.kdk1115JoinActivity"
             android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.kdk1115_mini.kdk1115SplashActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.kdk1115_mini.kdk1115LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0703.kdk1115_mini.kdk1115MainActivity"
-            android:exported="true" />
+
 
         <activity
             android:name=".miniProject.test0703.ohj0106_mini.Ohj0106SplashActivity"
