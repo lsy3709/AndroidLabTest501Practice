@@ -62,16 +62,16 @@
             android:name=".miniProject.test0703.mjs1003_mini.Mjs1003MainActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kms0828_mini.Kms0828SplashActivity"
+            android:name=".miniProject.test0703.kcy0810_mini.Kcy0810SplashActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kms0828_mini.Kms0828MainActivity"
+            android:name=".miniProject.test0703.kcy0810_mini.Kcy0810MainActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kms0828_mini.Kms0828LoginActivity"
+            android:name=".miniProject.test0703.kcy0810_mini.Kcy0810LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0703.kms0828_mini.Kms0828JoinActivity"
+            android:name=".miniProject.test0703.kcy0810_mini.Kcy0810JoinActivity"
 
             android:exported="true" />
         <activity
