@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/combi"
+            android:src="@drawable/food1"
             android:maxWidth="150dp"
             android:maxHeight="150dp"
             android:adjustViewBounds="true"
