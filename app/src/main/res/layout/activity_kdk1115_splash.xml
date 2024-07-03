@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="4"
-            android:text="피자 먹고파요" />
+            android:text="피자. 먹고파요" />
 
     </LinearLayout>
 
