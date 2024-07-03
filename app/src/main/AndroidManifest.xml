@@ -87,6 +87,24 @@
             android:name=".miniProject.test0703.lcs0806_mini.Lcs0806JoinActivity"
             android:exported="true" />
         <activity
+            android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815JoinActivity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0703.test0101_mini.Test0101JoinActivity"
             android:exported="false" />
         <activity
