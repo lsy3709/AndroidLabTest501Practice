@@ -38,6 +38,18 @@
             android:name=".miniProject.test0703.mjs1003_mini.Mjs1003MainActivity"
             android:exported="true" />
         <activity
+            android:name=".miniProject.test0703.kms0828_mini.Kms0828SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kms0828_mini.Kms0828MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kms0828_mini.Kms0828LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0703.kms0828_mini.Kms0828JoinActivity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0703.test0101_mini.Test0101JoinActivity"
             android:exported="false" />
         <activity
