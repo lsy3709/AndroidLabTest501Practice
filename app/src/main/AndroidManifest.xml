@@ -61,6 +61,10 @@
             android:name=".miniProject.test0709.kcy0810_mini.Kcy0810MainRecyclerView1Activity"
             android:exported="true" />
         <activity
+            android:name=".miniProject.test0709.ksy1028_mini.KsyMainRecyclerViewActivity"
+            android:exported="true" />
+
+        <activity
             android:name=".miniProject.test0709.lsy1205_mini.Ch11MainRecyclerView1Activity"
             android:exported="true" />
         <activity
