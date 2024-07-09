@@ -4,14 +4,12 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecycler2Binding
-import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecycler3Binding
-import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecyclerBinding
+import com.busanit501.androidlabtest501.databinding.Ksy1028Ch11ItemSimpleRecycler3Binding
 
 class Ch11MyAdapterSample3(val datas: MutableList<String> ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     // 어댑터에 뷰홀더 연결하기.
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder  =
-        Ch11MyViewHolder3(Ch11ItemSimpleRecycler3Binding.inflate(LayoutInflater.from(parent.context),parent, false))
+        Ch11MyViewHolder3(Ksy1028Ch11ItemSimpleRecycler3Binding.inflate(LayoutInflater.from(parent.context),parent, false))
 
     // 목록 요소의 갯수, 화면에 출력이 되는 갯수
     override fun getItemCount(): Int {
