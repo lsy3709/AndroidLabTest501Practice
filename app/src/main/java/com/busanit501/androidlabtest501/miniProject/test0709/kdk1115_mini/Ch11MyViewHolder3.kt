@@ -2,8 +2,8 @@ package com.busanit501.androidlabtest501.miniProject.test0709.kdk1115_mini
 
 import androidx.recyclerview.widget.RecyclerView
 import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecycler2Binding
-import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecycler3Binding
+import com.busanit501.androidlabtest501.databinding.Kdkch11ItemSimpleRecycler3Binding
 import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecyclerBinding
 
-class Ch11MyViewHolder3(val binding: Ch11ItemSimpleRecycler3Binding): RecyclerView.ViewHolder(binding.root) {
+class Ch11MyViewHolder3(val binding: Kdkch11ItemSimpleRecycler3Binding): RecyclerView.ViewHolder(binding.root) {
 }
