@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0709.lsy1205_mini.Ch11MainRecyclerView1Activity">
+    tools:context=".ch11_jetpack.recyclerview.test1simple.Ch11MainRecyclerView1Activity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -36,34 +36,12 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/ch11RecyclerSample2"
                 android:layout_width="match_parent"
-                android:layout_height="600dp"
+                android:layout_height="500dp"
 
                 />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="여기는 리사이클러뷰 영역이 아닙니다.2 "
-                android:background="@color/main_text_color"
-                style="@style/MyTextStyle"/>
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/ch11RecyclerSample3"
-                android:layout_width="match_parent"
-                android:layout_height="600dp"
-
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="여기는 리사이클러뷰 영역이 아닙니다.3 "
-                android:background="@color/white"
-                style="@style/MyTextStyle"/>
 
         </LinearLayout>
 
     </ScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
