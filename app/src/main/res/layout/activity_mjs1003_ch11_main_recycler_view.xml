@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0709.lsy1205_mini.Ch11MainRecyclerView1Activity">
-
+    tools:context=".miniProject.test0709.mjs1003_mini.Mjs1003_Ch11MainRecyclerViewActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -19,7 +17,7 @@
 
             <!--            리사이클러뷰 넣기. -->
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/ch11RecyclerSample1"
+                android:id="@+id/mjs1003ch11RecyclerSample1"
                 android:layout_width="match_parent"
                 android:layout_height="600dp"
 
@@ -34,7 +32,7 @@
 
             <!--            리사이클러뷰2 넣기. -->
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/ch11RecyclerSample2"
+                android:id="@+id/mjs1003ch11RecyclerSample2"
                 android:layout_width="match_parent"
                 android:layout_height="600dp"
 
@@ -49,7 +47,7 @@
 
             <!--            리사이클러뷰2 넣기. -->
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/ch11RecyclerSample3"
+                android:id="@+id/mjs1003ch11RecyclerSample3"
                 android:layout_width="match_parent"
                 android:layout_height="600dp"
 
@@ -65,6 +63,4 @@
         </LinearLayout>
 
     </ScrollView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
