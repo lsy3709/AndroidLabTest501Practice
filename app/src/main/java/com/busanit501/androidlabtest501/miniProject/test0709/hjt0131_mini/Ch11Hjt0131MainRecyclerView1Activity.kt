@@ -1,4 +1,4 @@
-package com.busanit501.androidlabtest501.miniProject.test0709.lsy1205_mini
+package com.busanit501.androidlabtest501.miniProject.test0709.hjt0131_mini
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -7,17 +7,16 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample2
-import com.busanit501.androidlabtest501.databinding.ActivityCh11MainRecyclerView1Binding
-//test2
-class Ch11MainRecyclerView1Activity : AppCompatActivity() {
-    lateinit var binding: ActivityCh11MainRecyclerView1Binding
+import com.busanit501.androidlabtest501.databinding.ActivityCh11Hjt0131MainRecyclerView1Binding
+
+
+class Ch11Hjt0131MainRecyclerView1Activity : AppCompatActivity() {
+    lateinit var binding: ActivityCh11Hjt0131MainRecyclerView1Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        binding = ActivityCh11MainRecyclerView1Binding.inflate(layoutInflater)
+        binding = ActivityCh11Hjt0131MainRecyclerView1Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
 //        setContentView(R.layout.activity_ch11_main_recycler_view1)
@@ -35,7 +34,7 @@ class Ch11MainRecyclerView1Activity : AppCompatActivity() {
 
         //리사이클러뷰 , 어떤 모양으로 배치할지 정하기.
         // 세로 방향, 가로 방향, 지그재그, 그리드 등.
-        val layoutManager = LinearLayoutManager(this@Ch11MainRecyclerView1Activity)
+        val layoutManager = LinearLayoutManager(this@Ch11Hjt0131MainRecyclerView1Activity)
         layoutManager.orientation = LinearLayoutManager.VERTICAL
         binding.ch11RecyclerSample1.layoutManager = layoutManager
 
@@ -52,12 +51,27 @@ class Ch11MainRecyclerView1Activity : AppCompatActivity() {
 
         //리사이클러뷰 , 어떤 모양으로 배치할지 정하기.
         // 세로 방향, 가로 방향, 지그재그, 그리드 등.
-        val layoutManager2 = LinearLayoutManager(this@Ch11MainRecyclerView1Activity)
+        val layoutManager2 = LinearLayoutManager(this@Ch11Hjt0131MainRecyclerView1Activity)
         layoutManager2.orientation = LinearLayoutManager.VERTICAL
         binding.ch11RecyclerSample2.layoutManager = layoutManager2
 
         // 어댑터 붙이기.
         binding.ch11RecyclerSample2.adapter = Ch11MyAdapterSample2(datas2)
+
+
+        val datas3 = mutableListOf<String>()
+        for(i in 1..10) {
+            datas3.add("오늘 점심 뭐먹지3 ? $i")
+        }
+
+        //리사이클러뷰 , 어떤 모양으로 배치할지 정하기.
+        // 세로 방향, 가로 방향, 지그재그, 그리드 등.
+        val layoutManager3 = LinearLayoutManager(this@Ch11Hjt0131MainRecyclerView1Activity)
+        layoutManager3.orientation = LinearLayoutManager.VERTICAL
+        binding.ch11RecyclerSample3.layoutManager = layoutManager3
+
+        // 어댑터 붙이기.
+        binding.ch11RecyclerSample3.adapter = Ch11MyAdapterSample3(datas3)
 
     } //onCreate
 }
