@@ -9,4 +9,5 @@ import com.busanit501.androidlabtest501.databinding.Lsj0918Ch11ItemSimpleRecycle
 class lsj0918Ch11MyViewHolder3(val binding: Lsj0918Ch11ItemSimpleRecycler3Binding):RecyclerView.ViewHolder(binding.root) {
 
 
+
 }

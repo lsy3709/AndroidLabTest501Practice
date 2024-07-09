@@ -53,6 +53,7 @@ class lsj0918Ch11MainRecyclerView1Activity : AppCompatActivity() {
             datas2.add("썸머송 추천2 ? $i")
         }
 
+
         //리사이클러뷰 , 어떤 모양으로 배치할지 정하기.
         // 세로 방향, 가로 방향, 지그재그, 그리드 등.
         val layoutManager2 = LinearLayoutManager(this@lsj0918Ch11MainRecyclerView1Activity)
