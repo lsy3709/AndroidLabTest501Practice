@@ -22,6 +22,9 @@
             android:name=".miniProject.test0709.lhs0418_mini.Ch11Lhs0418MainRecyclerView1Activity"
             android:exported="true" />
         <activity
+            android:name=".miniProject.test0709.nhj0918_mini.Nhj0918RecyclerViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0709.kdk1115_mini.Kdk1115Ch11MainRecyclerView1Activity"
             android:exported="true" />
         <activity
