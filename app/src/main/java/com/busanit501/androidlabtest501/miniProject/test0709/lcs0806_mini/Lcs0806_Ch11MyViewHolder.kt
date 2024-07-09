@@ -1,6 +1,8 @@
 package com.busanit501.androidlabtest501.miniProject.test0709.lcs0806_mini
 
 import androidx.recyclerview.widget.RecyclerView
+import com.busanit501.androidlabtest501.databinding.ActivityCh11LcsMainRecyclerView1Binding
+import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecyclerBinding
 import com.busanit501.androidlabtest501.databinding.Ch11LcsitemSimpleRecyclerBinding
 
 // 순서 2
