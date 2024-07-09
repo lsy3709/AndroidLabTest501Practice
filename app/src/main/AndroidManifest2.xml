@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,16 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabTest501"
-        tools:targetApi="31">
-        <activity
-            android:name=".miniProject.test0709.ohj0106_mini.ohj_Ch11MainRecyclerView1Activity"
-            android:exported="true" />
+        tools:targetApi="31" >
         <activity
             android:name=".miniProject.test0709.lhj0728_mini.Lhj0728RecyclerViewActivity"
-            android:exported="true" />
+            android:exported="true"/>
         <activity
             android:name=".miniProject.test0709.kms0828_mini.kms0828Ch11MainRecyclerView1Activity"
-            android:exported="true" />
+            android:exported="true"/>
         <activity
             android:name=".miniProject.test0709.lhs0418_mini.Ch11Lhs0418MainRecyclerView1Activity"
             android:exported="true" />
@@ -62,15 +59,16 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.lsj0918_mini.lsj0918Ch11MainRecyclerView1Activity"
-            android:exported="true" />
+            android:exported="true"  />
         <activity
             android:name=".miniProject.test0709.kcy0810_mini.Kcy0810MainRecyclerView1Activity"
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.ksy1028_mini.KsyMainRecyclerViewActivity"
             android:exported="true" />
+
         <activity
-            android:name=".miniProject.test0709.msy0402_mini.Ch11MainRecyclerView1Activity__msy0402"
+            android:name=".miniProject.test0709.lsy1205_mini.Ch11MainRecyclerView1Activity_msy0402"
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.msy0402_mini.Msy0402SplashActivity"
@@ -149,7 +147,7 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.lsy1205_mini.Lsy1205SplashActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -234,7 +232,7 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815LoginActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -273,6 +271,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+        <!--        .-->
+
+        <activity
+            android:name=".miniProject.test0709.msy0402_mini.Ch11MainRecyclerView1Activity_msy0402"
+            android:exported="true" />
     </application>
 
 </manifest>
