@@ -11,5 +11,4 @@ import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecyclerBindin
 
 //
 class Ch11MyViewHolder(val binding:Ch11ItemSimpleRecyclerBinding ):RecyclerView.ViewHolder(binding.root) {
-
 }
