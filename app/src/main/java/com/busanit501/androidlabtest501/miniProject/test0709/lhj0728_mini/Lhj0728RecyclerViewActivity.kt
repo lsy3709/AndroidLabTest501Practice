@@ -7,9 +7,6 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample2
-import com.busanit501.androidlabtest501.databinding.ActivityCh11MainRecyclerView1Binding
 import com.busanit501.androidlabtest501.databinding.ActivityLhj0728RecyclerViewBinding
 
 class Lhj0728RecyclerViewActivity : AppCompatActivity() {

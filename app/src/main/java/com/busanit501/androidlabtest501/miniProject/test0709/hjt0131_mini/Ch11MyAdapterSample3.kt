@@ -4,12 +4,13 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecycler3Binding
+import com.busanit501.androidlabtest501.databinding.Ch11Hjt0131ItemSimpleRecycler3Binding
+
 
 class Ch11MyAdapterSample3(val datas: MutableList<String> ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     // 어댑터에 뷰홀더 연결하기.
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder  =
-        Ch11MyViewHolder3(Ch11ItemSimpleRecycler3Binding.inflate(LayoutInflater.from(parent.context),parent, false))
+        Ch11MyViewHolder3(Ch11Hjt0131ItemSimpleRecycler3Binding.inflate(LayoutInflater.from(parent.context),parent, false))
 
     // 목록 요소의 갯수, 화면에 출력이 되는 갯수
     override fun getItemCount(): Int {
@@ -26,7 +27,7 @@ class Ch11MyAdapterSample3(val datas: MutableList<String> ) : RecyclerView.Adapt
         binding.ch11Recycler3ItemTextView.text = datas[position]
         // 해당 아이템 요소 클릭시 , 발생하는 이벤트 리스너 추가하기.
         binding.ch11ItemRoot.setOnClickListener {
-            Log.d("hjt", "목록 요소가 클릭됨 : $position")
+            Log.d("lsy", "목록 요소가 클릭됨 : $position")
         }
     }
 }
