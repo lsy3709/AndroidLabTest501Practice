@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--리사이클러뷰의 목록 요소 뷰-->
+<LinearLayout
+    android:id="@+id/ch11ItemRoot"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ch11Recycler3ItemImg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/coding4"/>
+
+        <TextView
+            android:id="@+id/ch11Recycler3ItemTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My dream car is Benz AMG GT!"
+            android:textSize="25sp"
+            android:textColor="#FF0000"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
