@@ -5,4 +5,3 @@ import com.busanit501.androidlabtest501.databinding.Ksy1028Ch11ItemSimpleRecycle
 
 class Ch11MyViewHolder3(val binding: Ksy1028Ch11ItemSimpleRecycler3Binding): RecyclerView.ViewHolder(binding.root) {
 }
-

@@ -74,5 +74,6 @@ class KsyMainRecyclerViewActivity : AppCompatActivity() {
 
         // 어댑터 붙이기.
         binding.ch11RecyclerSample3.adapter = Ch11MyAdapterSample3(datas3)
+
     }
 }

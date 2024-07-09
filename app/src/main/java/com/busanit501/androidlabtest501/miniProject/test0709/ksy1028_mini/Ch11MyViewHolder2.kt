@@ -6,4 +6,3 @@ import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecyclerBindin
 
 class Ch11MyViewHolder2(val binding: Ch11ItemSimpleRecycler2Binding): RecyclerView.ViewHolder(binding.root) {
 }
-

@@ -12,6 +12,7 @@ class Ch11MyAdapterSample3(val datas: MutableList<String> ) : RecyclerView.Adapt
         Ch11MyViewHolder3(Ksy1028Ch11ItemSimpleRecycler3Binding.inflate(LayoutInflater.from(parent.context),parent, false))
 
     // 목록 요소의 갯수, 화면에 출력이 되는 갯수
+
     override fun getItemCount(): Int {
         return datas.size
     }
