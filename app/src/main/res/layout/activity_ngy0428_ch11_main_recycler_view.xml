@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0709.lsy1205_mini.Ch11MainRecyclerView1Activity">
+    tools:context=".miniProject.test0709.ngy0428_mini.NGY0428_Ch11MainRecyclerViewActivity">
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,7 +48,8 @@
                 android:background="@color/main_text_color"
                 style="@style/MyTextStyle"/>
 
-            <!--            리사이클러뷰2 넣기. -->
+
+            <!--            리사이클러뷰3 넣기. -->
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/ch11RecyclerSample3"
                 android:layout_width="match_parent"
@@ -63,8 +65,5 @@
                 style="@style/MyTextStyle"/>
 
         </LinearLayout>
-
     </ScrollView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
