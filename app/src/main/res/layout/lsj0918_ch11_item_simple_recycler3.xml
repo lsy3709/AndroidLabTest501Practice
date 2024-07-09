@@ -17,7 +17,6 @@
             android:layout_height="150dp"
             android:src="@drawable/pic"/>
 
-
         <TextView
             android:id="@+id/ch11Recycler3ItemTextView"
             android:layout_marginTop="30dp"

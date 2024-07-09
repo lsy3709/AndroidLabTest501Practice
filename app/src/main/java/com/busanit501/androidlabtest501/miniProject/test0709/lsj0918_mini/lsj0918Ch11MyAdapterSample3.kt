@@ -20,6 +20,7 @@ class lsj0918Ch11MyAdapterSample3(val datas: MutableList<String> ) :RecyclerView
         return datas.size
     }
 
+
     // 해당 연결 된 뷰에, 데이터 넣기.
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         // 어댑터에 연결된 뷰 바인딩 -> 용도, 뷰를 선택하기.

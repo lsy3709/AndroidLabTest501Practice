@@ -46,7 +46,6 @@ class lsj0918Ch11MainRecyclerView1Activity : AppCompatActivity() {
         // 어댑터 붙이기.
         binding.lsj0918ch11RecyclerSample.adapter = lsj0918Ch11MyAdapterSample(datas)
 
-
         // 2번째 리사이클러뷰 붙이기 작업, 더미 데이터 추가.
         //샘플 더미 데이터 넣기.2
         val datas2 = mutableListOf<String>()
