@@ -30,3 +30,4 @@ class Ch11MyAdapterSample3(val datas: MutableList<String> ) : RecyclerView.Adapt
         }
     }
 }
+//
