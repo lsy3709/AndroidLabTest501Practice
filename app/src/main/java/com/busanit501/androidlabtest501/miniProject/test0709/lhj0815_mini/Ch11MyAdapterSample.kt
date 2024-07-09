@@ -1,21 +1,15 @@
 package com.busanit501.androidlabtest501.miniProject.test0709.lhj0815_mini
 
-import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyViewHolder
+import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyViewHolder_msy0402
 import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecyclerBinding
 
 class Ch11MyAdapterSample(val datas: MutableList<String> ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     // 어댑터에 뷰홀더 연결하기.
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder  =
-        Ch11MyViewHolder(Ch11ItemSimpleRecyclerBinding.inflate(LayoutInflater.from(parent.context),parent, false))
+        Ch11MyViewHolder_msy0402(Ch11ItemSimpleRecyclerBinding.inflate(LayoutInflater.from(parent.context),parent, false))
 
     // 목록 요소의 갯수
     override fun getItemCount(): Int {
@@ -25,7 +19,7 @@ class Ch11MyAdapterSample(val datas: MutableList<String> ) : RecyclerView.Adapte
     // 해당 연결 된 뷰에, 데이터 넣기.
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         // 어댑터에 연결된 뷰 바인딩 -> 용도, 뷰를 선택하기.
-        val binding = (holder as Ch11MyViewHolder).binding
+        val binding = (holder as Ch11MyViewHolder_msy0402).binding
         // 더미 데이터로 , food2 같은 이미지로 재사용.
 //        binding.ch11RecyclerItemImg =
         // 더미 데이터로, 문자열만, 내가 정한 임의의 데이터를 넣기.

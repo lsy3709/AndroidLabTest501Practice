@@ -7,8 +7,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample2
+import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample_msy0402
+import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample2_msy0402
 import com.busanit501.androidlabtest501.databinding.ActivityCh11MainRecyclerView1Binding
 
 class Ch11MainRecyclerView1Activity : AppCompatActivity() {
@@ -40,7 +40,7 @@ class Ch11MainRecyclerView1Activity : AppCompatActivity() {
 
 
         // 어댑터 붙이기.
-        binding.ch11RecyclerSample1.adapter = Ch11MyAdapterSample(datas)
+        binding.ch11RecyclerSample1.adapter = Ch11MyAdapterSample_msy0402(datas)
 
 
         // 2번째 리사이클러뷰 붙이기 작업, 더미 데이터 추가.
@@ -57,7 +57,7 @@ class Ch11MainRecyclerView1Activity : AppCompatActivity() {
         binding.ch11RecyclerSample2.layoutManager = layoutManager2
 
         // 어댑터 붙이기.
-        binding.ch11RecyclerSample2.adapter = Ch11MyAdapterSample2(datas2)
+        binding.ch11RecyclerSample2.adapter = Ch11MyAdapterSample2_msy0402(datas2)
 
         // 3번째 리사이클러뷰
         val datas3 = mutableListOf<String>()

@@ -1,17 +1,9 @@
 package com.busanit501.androidlabtest501.miniProject.test0709.lhj0815_mini
 
-import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyViewHolder2
-import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecycler2Binding
 import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecycler3Lhj0815Binding
 
 class Ch11MyAdapterSample3(val datas: MutableList<String> ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

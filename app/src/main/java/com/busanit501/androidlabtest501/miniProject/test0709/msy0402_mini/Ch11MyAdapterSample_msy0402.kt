@@ -7,7 +7,7 @@ import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecyclerBindin
 
 // 더미 데이터를 넣기, 단순, 텍스트 타입의 리스트를 매개변수로 정하기. ex) List<String>
 // 네트워크 통신 이용해서, 모델 타입의 리스트를 받기. ex) List<BoardDto>
-class Ch11MyAdapterSample(val datas: MutableList<String> ) :RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class Ch11MyAdapterSample_msy0402(val datas: MutableList<String> ) :RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     // 어댑터에 뷰홀더 연결하기.
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder  =
         Ch11MyViewHolder_msy0402(Ch11ItemSimpleRecyclerBinding.inflate(LayoutInflater.from(parent.context),parent, false))
