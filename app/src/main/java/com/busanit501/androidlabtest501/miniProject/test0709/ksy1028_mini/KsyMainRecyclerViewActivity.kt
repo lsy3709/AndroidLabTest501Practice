@@ -7,17 +7,19 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.busanit501.androidlabtest501.R
+import com.busanit501.androidlabtest501.databinding.Ksy1028Ch11ItemSimpleRecycler3Binding
 import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample2
-import com.busanit501.androidlabtest501.databinding.ActivityCh11MainRecyclerView1Binding
+import com.busanit501.androidlabtest501.databinding.ActivityKsy1028MainBinding
+import com.busanit501.androidlabtest501.databinding.ActivityKsyMainRecyclerViewBinding
+
 
 class KsyMainRecyclerViewActivity : AppCompatActivity() {
-    lateinit var binding: ActivityCh11MainRecyclerView1Binding
+    lateinit var binding: ActivityKsyMainRecyclerViewBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        binding = ActivityCh11MainRecyclerView1Binding.inflate(layoutInflater)
+        binding = ActivityKsyMainRecyclerViewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 //        setContentView(R.layout.activity_ch11_main_recycler_view1)
