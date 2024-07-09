@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <!--            리사이클러뷰 넣기. -->
+            <!--              리사이클러뷰 넣기. -->
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/ch11RecyclerSample1"
                 android:layout_width="match_parent"

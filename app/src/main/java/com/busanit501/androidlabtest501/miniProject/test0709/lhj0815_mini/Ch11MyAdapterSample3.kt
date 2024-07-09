@@ -29,7 +29,7 @@ class Ch11MyAdapterSample3(val datas: MutableList<String> ) : RecyclerView.Adapt
         // 어댑터에 연결된 뷰 바인딩 -> 용도, 뷰를 선택하기.
         val binding = (holder as Ch11MyViewHolder3).binding
         // 더미 데이터로 , food2 같은 이미지로 재사용.
-//        binding.ch11RecyclerItemImg =
+//                      binding.ch11RecyclerItemImg =
         // 더미 데이터로, 문자열만, 내가 정한 임의의 데이터를 넣기.
         binding.ch11Recycler3ItemTextView.text = datas[position]
 

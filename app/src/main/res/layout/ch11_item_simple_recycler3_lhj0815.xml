@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--리사이클러뷰의 목록 요소 뷰-->
+<!--리사이클러뷰의 목록 요소   뷰-->
 <LinearLayout
     android:id="@+id/ch11ItemRoot"
     xmlns:android="http://schemas.android.com/apk/res/android"
