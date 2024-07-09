@@ -26,5 +26,6 @@
             android:text="인트로 화면입니다.">
         </TextView>
 
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
