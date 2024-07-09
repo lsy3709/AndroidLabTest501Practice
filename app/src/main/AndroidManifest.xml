@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidLabTest501"
         tools:targetApi="31">
         <activity
+            android:name=".miniProject.test0709.msy0402_mini.Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0709.msy0402_mini.Ch11MainRecyclerView1Activity_msy0402"
             android:exported="true" />
         <activity
