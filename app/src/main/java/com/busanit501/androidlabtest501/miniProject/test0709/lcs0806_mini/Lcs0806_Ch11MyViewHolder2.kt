@@ -6,4 +6,5 @@ import com.busanit501.androidlabtest501.databinding.Ch11LcsitemSimpleRecycler2Bi
 
 class Lcs0806_Ch11MyViewHolder2(val binding: Ch11LcsitemSimpleRecycler2Binding): RecyclerView.ViewHolder(binding.root) {
 
+
 }
