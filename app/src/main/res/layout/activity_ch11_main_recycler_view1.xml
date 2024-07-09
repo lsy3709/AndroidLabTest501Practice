@@ -47,6 +47,20 @@
                 android:background="@color/main_text_color"
                 style="@style/MyTextStyle"/>
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ch11RecyclerSample3"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="여기는 리사이클러뷰 영역이 아닙니다.3 "
+                android:background="@color/white"
+                style="@style/MyTextStyle"/>
+
         </LinearLayout>
 
     </ScrollView>
