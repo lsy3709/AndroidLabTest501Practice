@@ -25,6 +25,27 @@
             android:name=".miniProject.test0709.ngy0428_mini.NGY0428_Ch11MainRecyclerViewActivity"
             android:exported="true" />
         <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder3"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample3"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder2"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample2"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0709.lsy1205_mini.Ch11MainRecyclerView1Activity"
             android:exported="true" />
         <activity
