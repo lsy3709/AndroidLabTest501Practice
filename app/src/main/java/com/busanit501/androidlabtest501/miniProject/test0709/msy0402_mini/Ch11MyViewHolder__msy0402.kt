@@ -9,6 +9,6 @@ import com.busanit501.androidlabtest501.databinding.Ch11ItemSimpleRecyclerBindin
 // 순서3
 // ch11_item_simple_recycler , 파일 생성, layout 폴더
 //
-class Ch11MyViewHolder_msy0402(val binding:Ch11ItemSimpleRecyclerBinding ):RecyclerView.ViewHolder(binding.root) {
+class Ch11MyViewHolder__msy0402(val binding:Ch11ItemSimpleRecyclerBinding ):RecyclerView.ViewHolder(binding.root) {
 
 }

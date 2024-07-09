@@ -7,7 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample2_msy0402
+import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample2__msy0402
 import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.lsj0918Ch11MyAdapterSample
 import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.lsj0918Ch11MyAdapterSample3
 import com.busanit501.androidlabtest501.databinding.ActivityLsj0918Ch11MainRecyclerView1Binding
@@ -59,7 +59,7 @@ class lsj0918Ch11MainRecyclerView1Activity : AppCompatActivity() {
         binding.lsj0918ch11RecyclerSample2.layoutManager = layoutManager2
 
         // 어댑터 붙이기.
-        binding.lsj0918ch11RecyclerSample2.adapter = Ch11MyAdapterSample2_msy0402(datas2)
+        binding.lsj0918ch11RecyclerSample2.adapter = Ch11MyAdapterSample2__msy0402(datas2)
 
         // 2번째 리사이클러뷰 붙이기 작업, 더미 데이터 추가.
         //샘플 더미 데이터 넣기.2

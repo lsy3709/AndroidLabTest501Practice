@@ -7,7 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample_msy0402
+import com.busanit501.androidlabtest501.ch11_jetpack.recyclerview.test1simple.Ch11MyAdapterSample__msy0402
 import com.busanit501.androidlabtest501.databinding.ActivityKsyMainRecyclerViewBinding
 
 
@@ -40,7 +40,7 @@ class KsyMainRecyclerViewActivity : AppCompatActivity() {
         binding.ch11RecyclerSample1.layoutManager = layoutManager
 
         // 어댑터 붙이기.
-        binding.ch11RecyclerSample1.adapter = Ch11MyAdapterSample_msy0402(datas)
+        binding.ch11RecyclerSample1.adapter = Ch11MyAdapterSample__msy0402(datas)
 
 
         // 2번째 리사이클러뷰 붙이기 작업, 더미 데이터 추가.
