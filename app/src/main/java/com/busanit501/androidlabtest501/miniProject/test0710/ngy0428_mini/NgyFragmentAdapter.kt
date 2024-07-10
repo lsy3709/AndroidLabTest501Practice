@@ -13,7 +13,7 @@ class NgyFragmentAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdap
     var sampleFragmentList : List<Fragment>
 
     init {
-        // 샘플 프래그먼트 재사용.
+        // 샘플 프래그먼트 재사용. 흠
         //Ch11OneFragment, Ch11TwoFragment, Ch11ThreeFragment
 
         sampleFragmentList = mutableListOf(NgyFragment1(), NgyFragment2(), NgyFragment3())
