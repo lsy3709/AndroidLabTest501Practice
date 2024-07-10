@@ -17,6 +17,7 @@ class Lcs0806Ch11Fragment2 : Fragment() {
 
     // 생명주기 확인을 위한, 로그 달기.
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         TAG = "Ch11OneFragment"
         Log.d(TAG,"생명주기 onCreate")

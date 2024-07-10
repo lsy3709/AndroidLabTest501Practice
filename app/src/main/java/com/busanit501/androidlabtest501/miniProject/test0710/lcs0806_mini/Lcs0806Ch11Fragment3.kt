@@ -38,6 +38,7 @@ class Lcs0806Ch11Fragment3 : Fragment() {
         super.onStart()
         Log.d(TAG,"생명주기 onStart")
 
+
     }
 
     override fun onResume() {

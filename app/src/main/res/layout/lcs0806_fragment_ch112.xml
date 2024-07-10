@@ -13,7 +13,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="400dp"
-            android:src="@drawable/tired2"
+            android:src="@drawable/tired3"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"/>
 
@@ -25,10 +25,11 @@
         android:textSize="30sp"
         android:background="@color/main_text_color"/>
 
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="400dp"
-            android:src="@drawable/tired2"
+            android:src="@drawable/tired3"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"/>
 

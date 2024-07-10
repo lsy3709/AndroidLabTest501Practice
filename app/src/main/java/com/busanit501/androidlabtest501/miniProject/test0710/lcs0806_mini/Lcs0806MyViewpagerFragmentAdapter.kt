@@ -28,6 +28,7 @@ class Lcs0806MyViewpagerFragmentAdapter(fragmentActivity: FragmentActivity) : Fr
     override fun createFragment(position: Int): Fragment {
         val returnFragment : Fragment = sampleFragmentList[position]
         return  returnFragment
+
     }
 
 }
