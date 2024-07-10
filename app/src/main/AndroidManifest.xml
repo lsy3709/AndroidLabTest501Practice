@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AndroidLabTest501"
         tools:targetApi="31">
         <activity
-            android:name=".miniProject.test0710.mjs1003_mini.MjsViewpagerTestFragmentMainActivity"
+            android:name=".miniProject.test0710.mjs1003_mini.Mjs1003ViewpagerTestFragmentMainActivity"
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"

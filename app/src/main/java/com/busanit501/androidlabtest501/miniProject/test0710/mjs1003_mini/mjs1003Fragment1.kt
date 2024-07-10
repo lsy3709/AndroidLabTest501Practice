@@ -6,12 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.databinding.FragmentMjs1Binding
-import com.busanit501.androidlabtest501.databinding.FragmentMjs3Binding
+import com.busanit501.androidlabtest501.databinding.FragmentMjs10031Binding
 
-class mjsFragment3 : Fragment() {
-    lateinit var binding: FragmentMjs3Binding
+
+
+class mjs1003Fragment1 : Fragment() {
+    lateinit var binding:FragmentMjs10031Binding
     lateinit var TAG: String
 
     // 생명주기 확인을 위한, 로그 달기.
@@ -25,7 +25,7 @@ class mjsFragment3 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentMjs3Binding.inflate(layoutInflater,container,false)
+        binding = FragmentMjs10031Binding.inflate(layoutInflater,container,false)
 
         Log.d(TAG,"생명주기 onCreateView")
 //        return inflater.inflate(R.layout.fragment_ch11_one, container, false)

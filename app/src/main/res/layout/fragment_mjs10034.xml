@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0710.mjs1003_mini.mjsFragment1">
+    tools:context=".miniProject.test0710.mjs1003_mini.mjs1003Fragment4">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,14 +14,14 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/cat4"
+            android:src="@drawable/cat7"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="프래그먼트 1 화면"
+            android:text="프래그먼트 4 화면"
             android:gravity="center"
             android:textSize="30sp"
             android:background="@color/main_text_color"/>

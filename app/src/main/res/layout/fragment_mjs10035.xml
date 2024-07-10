@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0710.mjs1003_mini.mjsFragment6">
+    tools:context=".miniProject.test0710.mjs1003_mini.mjs1003Fragment5">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/cat9"
+            android:src="@drawable/cat8"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"/>
 

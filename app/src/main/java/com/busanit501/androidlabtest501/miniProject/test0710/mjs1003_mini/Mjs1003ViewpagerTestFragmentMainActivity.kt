@@ -6,14 +6,15 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.busanit501.androidlabtest501.R
-import com.busanit501.androidlabtest501.databinding.ActivityMjsViewpagerTestFragmentMainBinding
+import com.busanit501.androidlabtest501.databinding.ActivityMjs1003ViewpagerTestFragmentMainBinding
 
-class MjsViewpagerTestFragmentMainActivity : AppCompatActivity() {
-    lateinit var binding : ActivityMjsViewpagerTestFragmentMainBinding
+
+class Mjs1003ViewpagerTestFragmentMainActivity : AppCompatActivity() {
+    lateinit var binding : ActivityMjs1003ViewpagerTestFragmentMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        binding = ActivityMjsViewpagerTestFragmentMainBinding.inflate(layoutInflater)
+        binding = ActivityMjs1003ViewpagerTestFragmentMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 //        setContentView(R.layout.activity_mjs_viewpager_test_fragment_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -28,9 +29,9 @@ class MjsViewpagerTestFragmentMainActivity : AppCompatActivity() {
         }
 
         // 뷰페이져의 속성에 어댑터 속성 연결하기.
-        binding.mjsvierpagerTest1.adapter = MjsMyViewpagerFragmentAdapter(this)
+        binding.mjsvierpagerTest1.adapter = Mjs1003MyViewpagerFragmentAdapter(this)
 
-        binding.mjsvierpagerTest2.adapter = MjsMyViewpagerFragmentAdapter2(this)
+        binding.mjsvierpagerTest2.adapter = Mjs1003MyViewpagerFragmentAdapter2(this)
         //2번째 뷰페이져 붙이기
 
 
