@@ -5,35 +5,42 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0703.nhj0918_mini.Nhj0918MainActivity">
+    tools:context=".miniProject.test0710.nhj0918_mini.NhjMainFragmentActivity">
 
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="400dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/loginpagenhj0918" />
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--            뷰페이저 테스트 1-->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/nhjvierpagerTest1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <TextView
+                style="@style/MyTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_text_color"
+                android:text="2번 뷰페이저,이미지 슬라이더 효과" />
+
+
+            <!--            뷰페이저 테스트 2-->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/nhjvierpagerTest2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="mainPage"
-            android:layout_gravity="center"/>
 
-
-
-    </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
