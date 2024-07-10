@@ -16,7 +16,7 @@ class KdkCh11Viewpager2TestFragmentMainActivity : AppCompatActivity() {
         binding = ActivityKdkCh11Viewpager2TestFragmentMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        setContentView(R.layout.activity_ch11_viewpager2_test_fragment_main)
+//        setContentView(R.layout.activity_ch11_viewpager2_test_fragment_main).
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)

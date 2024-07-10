@@ -11,7 +11,7 @@ import com.busanit501.androidlabtest501.databinding.FragmentKdkch112Binding
 
 class KdkCh11Fragment2 : Fragment() {
 
-    // 순서2, 프래그먼트 만들기. 뼈대 샘플 코딩 많이 지움.
+    // 순서2, 프래그먼트 만들기. 뼈대 샘플 코딩 많이 지움..
 
     lateinit var binding: FragmentKdkch112Binding
     lateinit var TAG: String

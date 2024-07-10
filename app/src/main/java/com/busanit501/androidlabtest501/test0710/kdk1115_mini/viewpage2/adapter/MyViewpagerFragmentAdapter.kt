@@ -15,7 +15,7 @@ class MyViewpagerFragmentAdapter(fragmentActivity: FragmentActivity) : FragmentS
 
     init {
         // 샘플 프래그먼트 재사용.
-        //Ch11OneFragment, Ch11TwoFragment, Ch11ThreeFragment
+        //Ch11OneFragment, Ch11TwoFragment, Ch11ThreeFragment.
 
         sampleFragmentList = mutableListOf(KdkCh11Fragment1(), KdkCh11Fragment2(), KdkCh11Fragment3())
 
