@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0710.kms0828_mini.kms0828Viewpager2MainActivity">
+    tools:context=".miniProject.test0710.kdk1115_mini.viewpage2.adapter.KdkCh11Viewpager2TestFragmentMainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,41 +17,25 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <!--            뷰페이저 테스트 1-->
+<!--            뷰페이저 테스트 1.-->
             <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/ch11viewpagerTest1"
+                android:id="@+id/ch11vierpagerTest1"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="해체해"
-                android:gravity="center"
-                android:layout_marginBottom="20dp"
+                android:text="2번 뷰페이저,이미지 슬라이더 효과"
                 style="@style/MyTextStyle"
-                android:background="#0559FF"/>
+                android:background="@color/main_text_color"/>
 
 
             <!--            뷰페이저 테스트 2-->
             <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/ch11viewpagerTest2"
+                android:id="@+id/ch11vierpagerTest2"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="해체해"
-                android:gravity="center"
-                android:layout_marginBottom="20dp"
-                style="@style/MyTextStyle"
-                android:background="#0559FF"/>
-
-            <!--            뷰페이저 테스트 3-->
-            <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/ch11viewpagerTest3"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"/>
 
         </LinearLayout>
 

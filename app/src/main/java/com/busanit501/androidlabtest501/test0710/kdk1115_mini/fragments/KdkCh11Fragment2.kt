@@ -1,4 +1,4 @@
-package com.busanit501.androidlabtest501.miniProject.test0710.mjs1003_mini
+package com.busanit501.androidlabtest501.miniProject.test0710.kdk1115_mini.fragments
 
 import android.os.Bundle
 import android.util.Log
@@ -6,18 +6,20 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.busanit501.androidlabtest501.databinding.FragmentMjs10035Binding
+import com.busanit501.androidlabtest501.databinding.ActivityKdkCh11Viewpager2TestFragmentMainBinding
+import com.busanit501.androidlabtest501.databinding.FragmentKdkch112Binding
 
+class KdkCh11Fragment2 : Fragment() {
 
+    // 순서2, 프래그먼트 만들기. 뼈대 샘플 코딩 많이 지움..
 
-class mjs1003Fragment6 : Fragment() {
-    lateinit var binding: FragmentMjs10035Binding
+    lateinit var binding: FragmentKdkch112Binding
     lateinit var TAG: String
 
     // 생명주기 확인을 위한, 로그 달기.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        TAG = "MJSFragment"
+        TAG = "Ch11OneFragment"
         Log.d(TAG,"생명주기 onCreate")
     }
 
@@ -25,7 +27,7 @@ class mjs1003Fragment6 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentMjs10035Binding.inflate(layoutInflater,container,false)
+        binding = FragmentKdkch112Binding.inflate(layoutInflater,container,false)
 
         Log.d(TAG,"생명주기 onCreateView")
 //        return inflater.inflate(R.layout.fragment_ch11_one, container, false)

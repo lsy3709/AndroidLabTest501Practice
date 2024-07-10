@@ -3,9 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0710.mjs1003_mini.mjs1003Fragment2">
+    tools:context=".miniProject.test0710.kdk1115_mini.fragments.KdkCh11Fragment2">
 
-    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,18 +13,19 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/cat5"
+            android:src="@drawable/food2"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="프래그먼트 2 화면"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:background="@color/main_text_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="프래그먼트 2 화면"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@color/main_text_color"/>
 
     </LinearLayout>
 
 </FrameLayout>
+    <!--.-->

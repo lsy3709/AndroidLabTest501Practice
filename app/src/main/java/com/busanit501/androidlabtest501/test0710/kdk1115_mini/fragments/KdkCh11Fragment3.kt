@@ -1,4 +1,4 @@
-package com.busanit501.androidlabtest501.ch11_jetpack.fragments
+package com.busanit501.androidlabtest501.miniProject.test0710.kdk1115_mini.fragments
 
 import android.os.Bundle
 import android.util.Log
@@ -6,14 +6,15 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.busanit501.androidlabtest501.databinding.FragmentLhs0418Ch111Binding
+import com.busanit501.androidlabtest501.databinding.ActivityKdkCh11Viewpager2TestFragmentMainBinding
+import com.busanit501.androidlabtest501.databinding.FragmentKdkch113Binding
 
 
-class Ch11Lhs0418Fragment1 : Fragment() {
+class KdkCh11Fragment3 : Fragment() {
 
-    // 순서2, 프래그먼트 만들기. 뼈대 샘플 코딩 많이 지움.
+    // 순서2, 프래그먼트 만들기. 뼈대 샘플 코딩 많이 지움..
 
-    lateinit var binding:FragmentLhs0418Ch111Binding
+    lateinit var binding: FragmentKdkch113Binding
     lateinit var TAG: String
 
     // 생명주기 확인을 위한, 로그 달기.
@@ -27,7 +28,7 @@ class Ch11Lhs0418Fragment1 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-          binding = FragmentLhs0418Ch111Binding.inflate(layoutInflater,container,false)
+        binding = FragmentKdkch113Binding.inflate(layoutInflater,container,false)
 
         Log.d(TAG,"생명주기 onCreateView")
 //        return inflater.inflate(R.layout.fragment_ch11_one, container, false)

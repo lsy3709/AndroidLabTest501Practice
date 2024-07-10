@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ch11_jetpack.fragments.Ch11Lhs0418OneFragment">
+    tools:context=".miniProject.test0710.kdk1115_mini.fragments.KdkCh11Fragment1">
 
     <!-- TODO: Update blank fragment layout -->
   <LinearLayout
@@ -14,7 +14,7 @@
       <ImageView
           android:layout_width="match_parent"
           android:layout_height="300dp"
-          android:src="@drawable/coding3"
+          android:src="@drawable/food1"
           android:adjustViewBounds="true"
           android:scaleType="centerCrop"/>
 
@@ -31,3 +31,4 @@
 
 
 </FrameLayout>
+<!--.-->
