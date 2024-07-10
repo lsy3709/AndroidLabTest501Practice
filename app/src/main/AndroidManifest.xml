@@ -34,6 +34,9 @@
             android:name=".miniProject.test0709.kms0828_mini.kms0828Ch11MainRecyclerView1Activity"
             android:exported="true" />
         <activity
+            android:name=".miniProject.test0710.lhs0418_mini.Ch11Lhs0418Viewpager2TestFragmentMainActivity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0709.lhs0418_mini.Ch11Lhs0418MainRecyclerView1Activity"
             android:exported="true" />
         <activity
