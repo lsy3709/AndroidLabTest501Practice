@@ -6,15 +6,16 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.viewpager2.widget.ViewPager2
-import com.busanit501.androidlabtest501.databinding.ActivityCh11MainFragmentBinding
+//import com.busanit501.androidlabtest501.databinding.ActivityCh11MainFragmentBinding
+import com.busanit501.androidlabtest501.databinding.ActivityCh11MainFragmentMsy0402Binding
 
 class Ch11MainFragmentActivity_msy0402 : AppCompatActivity() {
 
-    private lateinit var binding: ActivityCh11MainFragmentBinding
+    private lateinit var binding: ActivityCh11MainFragmentMsy0402Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityCh11MainFragmentBinding.inflate(layoutInflater)
+        binding = ActivityCh11MainFragmentMsy0402Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
         enableEdgeToEdge()
