@@ -45,9 +45,9 @@
         <activity
             android:name=".miniProject.test0709.ohj0106_mini.ohj_Ch11MainRecyclerView1Activity"
             android:exported="true" />
-        <activity
-            android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"
-            android:exported="true" />
+<!--        <activity-->
+<!--            android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"-->
+<!--            android:exported="true" />-->
         <activity
             android:name=".miniProject.test0709.lhj0728_mini.Lhj0728RecyclerViewActivity"
             android:exported="true" />
