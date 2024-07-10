@@ -12,6 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabTest501"
         tools:targetApi="31" >
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11MainFragmentActivity_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11PagerAdapter_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11ThreeFragment_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11TwoFragment_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11OneFragment_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.fragment_ch11_three_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.fragment_ch11_two_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.fragment_ch11_one_msy0402"
+            android:exported="true" />
         <activity android:name=".miniProject.test0710.kms0828_mini.kms0828Viewpager2MainActivity"
             android:exported="true"/>
         <activity
