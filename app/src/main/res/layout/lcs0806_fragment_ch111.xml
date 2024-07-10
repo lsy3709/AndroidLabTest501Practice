@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ch11_jetpack.fragments.Lcs0806Ch11Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="400dp"
+          android:src="@drawable/dogtired2"
+          android:adjustViewBounds="true"
+          android:scaleType="centerCrop"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/main_text_color"
+          android:gravity="center"
+          android:text="강아지 피곤"
+          android:textSize="30sp" />
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="400dp"
+          android:src="@drawable/dogtired2"
+          android:adjustViewBounds="true"
+          android:scaleType="centerCrop"/>
+
+
+  </LinearLayout>
+
+
+
+</FrameLayout>
