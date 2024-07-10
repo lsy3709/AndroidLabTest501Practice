@@ -11,13 +11,13 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.busanit501.androidlabtest501.R
 
-class Ch11OneFragment : Fragment() {
+class Ch11OneFragment_msy0402 : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val rootView = inflater.inflate(R.layout.activity_fragment_ch11_one, container, false)
+        val rootView = inflater.inflate(R.layout.activity_fragment_ch11_one_msy0402, container, false)
 
         // Enable edge-to-edge display
         activity?.let {

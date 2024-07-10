@@ -6,11 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.viewpager2.widget.ViewPager2
-import com.busanit501.androidlabtest501.R
 import com.busanit501.androidlabtest501.databinding.ActivityCh11MainFragmentBinding
-import com.busanit501.androidlabtest501.miniProject.test0710_msy0402.msy0402_mini.Ch11PagerAdapter
 
-class Ch11MainFragmentActivity : AppCompatActivity() {
+class Ch11MainFragmentActivity_msy0402 : AppCompatActivity() {
 
     private lateinit var binding: ActivityCh11MainFragmentBinding
 
@@ -30,7 +28,7 @@ class Ch11MainFragmentActivity : AppCompatActivity() {
 
         // Setup ViewPager2 with adapter
         val viewPager: ViewPager2 = binding.viewPager
-        val adapter = Ch11PagerAdapter(this)
+        val adapter = Ch11PagerAdapter_msy0402(this)
         viewPager.adapter = adapter
     }
 }

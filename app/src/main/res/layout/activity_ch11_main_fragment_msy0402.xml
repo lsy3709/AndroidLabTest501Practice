@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0710_msy0402.msy0402_mini.Ch11MainFragmentActivity">
+    tools:context=".miniProject.test0710_msy0402.msy0402_mini.Ch11MainFragmentActivity_msy0402">
 
     <!-- ViewPager2 to display fragments -->
     <androidx.viewpager2.widget.ViewPager2

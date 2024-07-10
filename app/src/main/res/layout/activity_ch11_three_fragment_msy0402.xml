@@ -5,6 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0710_msy0402.msy0402_mini.Ch11ThreeFragment">
+    tools:context=".miniProject.test0710_msy0402.msy0402_mini.Ch11ThreeFragment_msy0402">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

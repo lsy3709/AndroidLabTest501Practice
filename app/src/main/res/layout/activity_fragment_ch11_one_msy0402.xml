@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".miniProject.test0710_msy0402.msy0402_mini.Ch11OneFragment">
+    tools:context=".miniProject.test0710_msy0402.msy0402_mini.Ch11OneFragment_msy0402">
 
     <!-- Example fragment layout with a TextView -->
     <LinearLayout
