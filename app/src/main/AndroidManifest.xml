@@ -15,75 +15,75 @@
         <activity
             android:name=".miniProject.test0710.ohj_mini.ohj_Ch11Viewpager2TestFragmentMainActivity"
             android:exported="true" />
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.ksb0109_mini.Ksb0109Ch11MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.ohj0106_mini.ohj_Ch11MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--&lt;!&ndash;        <activity&ndash;&gt;-->
-<!--&lt;!&ndash;            android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:exported="true" />&ndash;&gt;-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhj0728_mini.Lhj0728RecyclerViewActivity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.kms0828_mini.kms0828Ch11MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhs0418_mini.Ch11Lhs0418MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.nhj0918_mini.Nhj0918RecyclerViewActivity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.kdk1115_mini.Kdk1115Ch11MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.hjt0131_mini.Ch11Hjt0131MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.mjs1003_mini.Mjs1003_Ch11MainRecyclerViewActivity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.ngy0428_mini.NGY0428_Ch11MainRecyclerViewActivity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder3"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample3"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder2"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample2"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lhj0815_mini.Ch11MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.lsj0918_mini.lsj0918Ch11MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.kcy0810_mini.Kcy0810MainRecyclerView1Activity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.ksy1028_mini.KsyMainRecyclerViewActivity"-->
-<!--            android:exported="true" />-->
-<!--        <activity-->
-<!--            android:name=".miniProject.test0709.msy0402_mini.Ch11MainRecyclerView1Activity__msy0402"-->
-<!--            android:exported="true" />-->
+        <activity
+            android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.ksb0109_mini.Ksb0109Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.ohj0106_mini.ohj_Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"
+            android:exported="true"/>
+        <activity
+            android:name=".miniProject.test0709.lhj0728_mini.Lhj0728RecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.kms0828_mini.kms0828Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhs0418_mini.Ch11Lhs0418MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.nhj0918_mini.Nhj0918RecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.kdk1115_mini.Kdk1115Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.hjt0131_mini.Ch11Hjt0131MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.mjs1003_mini.Mjs1003_Ch11MainRecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.ngy0428_mini.NGY0428_Ch11MainRecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder3"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample3"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder2"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyViewHolder"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample2"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MyAdapterSample"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lhj0815_mini.Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.lsj0918_mini.lsj0918Ch11MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.kcy0810_mini.Kcy0810MainRecyclerView1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.ksy1028_mini.KsyMainRecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0709.msy0402_mini.Ch11MainRecyclerView1Activity__msy0402"
+            android:exported="true" />
         <activity
             android:name=".miniProject.test0703.msy0402_mini.Msy0402SplashActivity"
             android:exported="true" />
