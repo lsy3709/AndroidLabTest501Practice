@@ -11,6 +11,7 @@ import com.busanit501.androidlabtest501.databinding.ActivityLsj0918ViewpagerFrag
 class lsj0918ViewpagerFragmentMainActivity : AppCompatActivity() {
     lateinit var binding: ActivityLsj0918ViewpagerFragmentMainBinding
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

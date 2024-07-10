@@ -34,6 +34,7 @@ class lsj0918Fragment2 : Fragment() {
         return binding.root
     }
 
+
     override fun onStart() {
         super.onStart()
         Log.d(TAG,"생명주기 onStart")

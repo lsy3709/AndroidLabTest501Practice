@@ -12,6 +12,7 @@ class lsj0918MyViewpagerFragmentAdapter2 (fragmentActivity: FragmentActivity) : 
     // 프래그먼트를 요소로 가지는 리스트 정의
     var sampleFragmentList : List<Fragment>
 
+
     init {
         // 샘플 프래그먼트 재사용.
         //Ch11OneFragment, Ch11TwoFragment, Ch11ThreeFragment

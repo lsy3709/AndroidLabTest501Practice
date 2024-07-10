@@ -19,6 +19,7 @@ class lsj0918Fragment1 : Fragment() {
         TAG = "lsj0918Fragment1"
         Log.d(TAG,"생명주기 onCreate")
 
+
         }
 
     override fun onCreateView(
