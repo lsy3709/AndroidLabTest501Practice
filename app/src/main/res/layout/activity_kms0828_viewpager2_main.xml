@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".miniProject.test0710.kms0828_mini.kms0828Viewpager2MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--            뷰페이저 테스트 1-->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/ch11viewpagerTest1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="해체해"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                style="@style/MyTextStyle"
+                android:background="#0559FF"/>
+
+
+            <!--            뷰페이저 테스트 2-->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/ch11viewpagerTest2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="해체해"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                style="@style/MyTextStyle"
+                android:background="#0559FF"/>
+
+            <!--            뷰페이저 테스트 3-->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/ch11viewpagerTest3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
