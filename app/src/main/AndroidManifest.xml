@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,18 +11,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabTest501"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
             android:name=".miniProject.test0710.ksy1028_mini.Ksy1028MainFragmentActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"
+            android:name=".miniProject.test0710.kdk1115_mini.viewpage2.adapter.KdkCh11Viewpager2TestFragmentMainActivity"
+            android:exported="true" />
+        <activity android:name=".miniProject.test0710.kms0828_mini.kms0828Viewpager2MainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".miniProject.test0710.mjs1003_mini.Mjs1003ViewpagerTestFragmentMainActivity"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0709.ksb0109_mini.Ksb0109Ch11MainRecyclerView1Activity"
+            android:name=".miniProject.test0710.lhj0815_mini.viewpage2.adapter.MyViewpagerFragmentAdapter2_lhj0"
             android:exported="true" />
         <activity
-            android:name=".miniProject.test0709.ohj0106_mini.ohj_Ch11MainRecyclerView1Activity"
+            android:name=".miniProject.test0710.lhj0815_mini.viewpage2.adapter.MyViewpagerFragmentAdapter_lhj0"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.viewpage2.adapter.Ch11Viewpager2TestFragmentMainActivity_lhj0"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragmentSample.Ch11FragmentSampleMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11threeFragment"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11TwoFragment"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11OneFragment"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11Fragment3"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11Fragment2"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11Fragment1"
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"
@@ -32,6 +61,9 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.kms0828_mini.kms0828Ch11MainRecyclerView1Activity"
+            android:exported="true"/>
+        <activity
+            android:name=".miniProject.test0710.lhs0418_mini.Ch11Lhs0418Viewpager2TestFragmentMainActivity"
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.lhs0418_mini.Ch11Lhs0418MainRecyclerView1Activity"
@@ -47,6 +79,9 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.mjs1003_mini.Mjs1003_Ch11MainRecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.ngy0428_mini.NgyMainFragmentActivity"
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.ngy0428_mini.NGY0428_Ch11MainRecyclerViewActivity"
@@ -161,7 +196,7 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.lsy1205_mini.Lsy1205SplashActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -246,7 +281,7 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815LoginActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -285,6 +320,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+        <!--        .-->
     </application>
 
 </manifest>
