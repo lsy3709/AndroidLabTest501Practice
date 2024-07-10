@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,8 +11,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLabTest501"
-        tools:targetApi="31" >
-
+        tools:targetApi="31">
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.fragment_ch11_two_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.fragment_ch11_three_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.fragment_ch11_one_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11TwoFragment_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11ThreeFragment_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11PagerAdapter_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11OneFragment_msy0402"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.msy0402_mini.Ch11MainFragmentActivity_msy0402"
+            android:exported="true" />
         <activity
             android:name=".miniProject.test0710.lsj0918_mini.adapter.lsj0918ViewpagerFragmentMainActivity"
             android:exported="true" />
@@ -25,8 +48,9 @@
         <activity
             android:name=".miniProject.test0710.kdk1115_mini.viewpage2.adapter.KdkCh11Viewpager2TestFragmentMainActivity"
             android:exported="true" />
-        <activity android:name=".miniProject.test0710.kms0828_mini.kms0828Viewpager2MainActivity"
-            android:exported="true"/>
+        <activity
+            android:name=".miniProject.test0710.kms0828_mini.kms0828Viewpager2MainActivity"
+            android:exported="true" />
         <activity
             android:name=".miniProject.test0710.mjs1003_mini.Mjs1003ViewpagerTestFragmentMainActivity"
             android:exported="true" />
@@ -68,7 +92,7 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.kms0828_mini.kms0828Ch11MainRecyclerView1Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".miniProject.test0710.lhs0418_mini.Ch11Lhs0418Viewpager2TestFragmentMainActivity"
             android:exported="true" />
@@ -188,7 +212,7 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.test0101_mini.Test0101JoinActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".miniProject.test0703.lhj0728_mini.Lhj0728SplashActivity"
             android:exported="true" />
@@ -203,7 +227,7 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.lsy1205_mini.Lsy1205SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -288,7 +312,7 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0703.Lhj0815_mini.Lhj0815LoginActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -314,20 +338,19 @@
         <!-- android:exported="true" /> -->
         <activity
             android:name=".ch06.Ch06Test2Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ch06.Ch06TestActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ch06.Ch6MainActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TestActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <!--        .-->
+            android:exported="true" />
     </application>
 
 </manifest>
