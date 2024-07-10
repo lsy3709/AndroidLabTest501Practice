@@ -26,6 +26,7 @@
           android:text="강아지 피곤"
           android:textSize="30sp" />
 
+
       <ImageView
           android:layout_width="match_parent"
           android:layout_height="400dp"

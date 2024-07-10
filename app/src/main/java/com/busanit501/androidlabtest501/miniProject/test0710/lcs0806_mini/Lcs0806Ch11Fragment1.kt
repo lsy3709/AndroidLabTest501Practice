@@ -12,6 +12,7 @@ import com.busanit501.androidlabtest501.databinding.Lcs0806FragmentCh111Binding
 class Lcs0806Ch11Fragment1 : Fragment() {
 
 
+
     // 순서2, 프래그먼트 만들기. 뼈대 샘플 코딩 많이 지움.
 
     lateinit var binding: Lcs0806FragmentCh111Binding

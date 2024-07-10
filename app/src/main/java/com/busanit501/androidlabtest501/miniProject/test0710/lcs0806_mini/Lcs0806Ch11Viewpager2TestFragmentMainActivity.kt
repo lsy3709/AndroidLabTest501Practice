@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.busanit501.androidlabtest501.R
 import com.busanit501.androidlabtest501.databinding.Lcs0806activityCh11Viewpager2TestFragmentMainBinding
 
+
 class Lcs0806Ch11Viewpager2TestFragmentMainActivity : AppCompatActivity() {
     lateinit var binding : Lcs0806activityCh11Viewpager2TestFragmentMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
