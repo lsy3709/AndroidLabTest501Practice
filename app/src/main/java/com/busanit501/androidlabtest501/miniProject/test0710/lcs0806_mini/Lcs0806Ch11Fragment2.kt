@@ -61,5 +61,4 @@ class Lcs0806Ch11Fragment2 : Fragment() {
         Log.d(TAG,"생명주기 onDestroy")
     }
 
-
 }

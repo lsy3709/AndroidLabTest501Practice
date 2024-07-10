@@ -14,7 +14,7 @@
       <ImageView
           android:layout_width="match_parent"
           android:layout_height="400dp"
-          android:src="@drawable/dogtired"
+          android:src="@drawable/dogtired2"
           android:adjustViewBounds="true"
           android:scaleType="centerCrop"/>
 
@@ -25,7 +25,6 @@
           android:gravity="center"
           android:text="강아지 피곤"
           android:textSize="30sp" />
-
 
       <ImageView
           android:layout_width="match_parent"

@@ -34,6 +34,7 @@ class Lcs0806Ch11Fragment1 : Fragment() {
         Log.d(TAG,"생명주기 onCreateView")
 //        return inflater.inflate(R.layout.fragment_ch11_one, container, false)
         return binding.root
+
     }
 
     override fun onStart() {

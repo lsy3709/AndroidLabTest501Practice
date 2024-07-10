@@ -19,7 +19,6 @@ class Lcs0806MyViewpagerFragmentAdapter(fragmentActivity: FragmentActivity) : Fr
 
         sampleFragmentList = mutableListOf(Lcs0806Ch11Fragment1(), Lcs0806Ch11Fragment2(), Lcs0806Ch11Fragment3())
 
-
     }
 
     // 출력할 목록 요소의 갯수

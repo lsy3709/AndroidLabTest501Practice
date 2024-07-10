@@ -33,6 +33,5 @@ class Lcs0806Ch11Viewpager2TestFragmentMainActivity : AppCompatActivity() {
         //1번째 뷰페이져 붙이기
         binding.ch11vierpagerTest2.adapter = Lcs0806MyViewpagerFragmentAdapter(this)
 
-
     } //onCreate
 }
