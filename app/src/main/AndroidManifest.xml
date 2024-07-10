@@ -17,6 +17,9 @@
             android:name=".miniProject.test0710.lcs0806_mini.Lcs0806Ch11Viewpager2TestFragmentMainActivity"
             android:exported="true" />
         <activity
+            android:name=".miniProject.test0710.ksy1028_mini.Ksy1028MainFragmentActivity"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0710.kdk1115_mini.viewpage2.adapter.KdkCh11Viewpager2TestFragmentMainActivity"
             android:exported="true" />
         <activity android:name=".miniProject.test0710.kms0828_mini.kms0828Viewpager2MainActivity"
