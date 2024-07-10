@@ -13,6 +13,36 @@
         android:theme="@style/Theme.AndroidLabTest501"
         tools:targetApi="31">
         <activity
+            android:name=".miniProject.test0710.lhj0815_mini.viewpage2.adapter.MyViewpagerFragmentAdapter2_lhj0"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.viewpage2.adapter.MyViewpagerFragmentAdapter_lhj0"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.viewpage2.adapter.Ch11Viewpager2TestFragmentMainActivity_lhj0"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragmentSample.Ch11FragmentSampleMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11threeFragment"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11TwoFragment"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11OneFragment"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11Fragment3"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11Fragment2"
+            android:exported="true" />
+        <activity
+            android:name=".miniProject.test0710.lhj0815_mini.fragments.LHJ0Ch11Fragment1"
+            android:exported="true" />
+        <activity
             android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"
             android:exported="true" />
         <activity
@@ -20,10 +50,9 @@
             android:exported="true" />
         <activity
             android:name=".miniProject.test0709.ohj0106_mini.ohj_Ch11MainRecyclerView1Activity"
-            android:exported="true" />
-        <activity
-            android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity"
-            android:exported="true"/>
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".miniProject.test0709.lcs0806_mini.Lcs0806_Ch11MainRecyclerView1Activity" -->
+        <!-- android:exported="true" /> -->
         <activity
             android:name=".miniProject.test0709.lhj0728_mini.Lhj0728RecyclerViewActivity"
             android:exported="true" />
